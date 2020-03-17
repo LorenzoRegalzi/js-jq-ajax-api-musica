@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-fullwidth{
+    background-color:  #1e2d3b;
+    width: 100vw;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 1080px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.container-card{
+    padding: 100px;
+}
+.container-generi{
+    padding-top: 10px;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(46,58,70);
+}
+header img{
+    margin: 5px 0;
+    height: 40px;
+}
+.select-genere{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}

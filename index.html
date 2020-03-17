@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="main-fullwidth">
+            <header>
+                <div class="container">
+                    <img src="img/logo.png" alt="">
+                </div>
+            </header>
+            <div class="container container-generi">
+                <select class="select-genere" name="">
+                    <option value="">Genere</option>
+                    <option value="pop">jazz</option>
+                    <option value="jazz">pop</option>
+                    <option value="metal">rock</option>
+                    <option value="rock">metal</option>
+                </select>
+            </div>
+            <div class="container container-card">
+
+            </div>
+
+            <script id="template" type="text/x-handlebars-template">
+                <div class="card" data-genere="{{genere}}">
+                    <img src="{{immagineAlbum}}" alt="{{nomeAlbum}} cover">
+                    <h3>{{nomeAlbum}}</h3>
+                    <span>{{autore}}</span>
+                    <span>{{anno}}</span>
+                </div>
+            </script>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+        <script src="js/main.js" charset="utf-8"></script>
+    </body>
+</html>
